@@ -1,4 +1,3 @@
-
 import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -33,72 +32,72 @@ const Projects = () => {
   const featuredProjects = [
     {
       title: "E-Commerce Platform",
-      description: "A full-featured e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, payment integration with Stripe, and order management.",
+      description: "A full-featured e-commerce solution built with the MERN stack (MongoDB, Express, React, Node.js). Includes product management, user authentication, shopping cart functionality, and payment processing with Stripe.",
       tech: ["React", "Node.js", "Express", "MongoDB", "Redux", "Stripe"],
-      github: "#",
-      external: "#",
+      github: "https://github.com/ruhban",
+      external: "https://developerruhban.com/projects/ecommerce",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates. Users can create workspaces, assign tasks, set deadlines, and track progress. Includes notifications and reporting features.",
-      tech: ["Next.js", "TypeScript", "TailwindCSS", "Prisma", "PostgreSQL", "Socket.io"],
-      github: "#",
-      external: "#",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+      title: "Real Estate Listing Platform",
+      description: "A comprehensive real estate platform allowing users to list, search, and filter properties. Features include an interactive map view, saved searches, and agent contact functionality.",
+      tech: ["Vue.js", "Node.js", "Express", "MongoDB", "Google Maps API"],
+      github: "https://github.com/ruhban",
+      external: "https://developerruhban.com/projects/real-estate",
+      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
     },
     {
-      title: "AI Content Generator",
-      description: "An AI-powered content generation tool that helps users create blog posts, social media content, and marketing copy. Utilizes OpenAI's GPT models for text generation with customizable parameters.",
-      tech: ["React", "Python", "FastAPI", "OpenAI", "Docker", "AWS"],
-      github: "#",
-      external: "#",
+      title: "CRM System",
+      description: "A customer relationship management system designed for small businesses. Includes contact management, task tracking, email integration, and performance analytics dashboard.",
+      tech: ["React", "Next.js", "TypeScript", "TailwindCSS", "Firebase"],
+      github: "https://github.com/ruhban",
+      external: "https://developerruhban.com/projects/crm",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
     }
   ];
 
   const otherProjects = [
     {
-      title: "Weather App",
-      description: "A minimalist weather application with location detection and animated visualizations.",
-      tech: ["React", "CSS", "Weather API"],
-      github: "#",
-      external: "#",
+      title: "Portfolio Website",
+      description: "My personal portfolio website showcasing my projects and skills.",
+      tech: ["React", "TailwindCSS", "Vite"],
+      github: "https://github.com/ruhban/portfolio",
+      external: "https://developerruhban.com",
     },
     {
-      title: "Portfolio Website",
-      description: "My personal portfolio website built with React and TailwindCSS.",
-      tech: ["React", "TailwindCSS", "Vite"],
-      github: "#",
-      external: "#",
+      title: "Weather Dashboard",
+      description: "A weather application with location detection and 7-day forecast.",
+      tech: ["JavaScript", "OpenWeather API", "Bootstrap"],
+      github: "https://github.com/ruhban",
+      external: "https://developerruhban.com/projects/weather",
+    },
+    {
+      title: "Task Manager",
+      description: "A simple task management application with drag-and-drop functionality.",
+      tech: ["Vue.js", "Vuex", "Firebase"],
+      github: "https://github.com/ruhban",
+      external: "https://developerruhban.com/projects/task-manager",
     },
     {
       title: "Recipe Finder",
-      description: "An application to search for recipes based on available ingredients and dietary restrictions.",
-      tech: ["JavaScript", "Node.js", "MongoDB"],
-      github: "#",
-      external: "#",
+      description: "An application to search for recipes based on ingredients and dietary preferences.",
+      tech: ["React", "Spoonacular API", "TailwindCSS"],
+      github: "https://github.com/ruhban",
+      external: "https://developerruhban.com/projects/recipe-finder",
+    },
+    {
+      title: "Markdown Blog",
+      description: "A simple blogging platform that supports Markdown formatting.",
+      tech: ["Node.js", "Express", "MongoDB", "Marked.js"],
+      github: "https://github.com/ruhban",
+      external: "https://developerruhban.com/projects/markdown-blog",
     },
     {
       title: "Budget Tracker",
       description: "A financial management tool to track income, expenses, and savings goals.",
-      tech: ["React", "Chart.js", "Firebase"],
-      github: "#",
-      external: "#",
-    },
-    {
-      title: "Movie Recommendation System",
-      description: "A machine learning-based movie recommendation system with user preference learning.",
-      tech: ["Python", "Flask", "TensorFlow"],
-      github: "#",
-      external: "#",
-    },
-    {
-      title: "Fitness Tracking App",
-      description: "A mobile-first application for tracking workouts, nutrition, and progress photos.",
-      tech: ["React Native", "Redux", "Firebase"],
-      github: "#",
-      external: "#",
+      tech: ["React", "Chart.js", "LocalStorage"],
+      github: "https://github.com/ruhban",
+      external: "https://developerruhban.com/projects/budget-tracker",
     }
   ];
 
@@ -188,7 +187,7 @@ const Projects = () => {
             
             <div className="flex justify-center mt-16">
               <Button asChild className="bg-transparent hover:bg-teal/10 border border-teal text-teal">
-                <a href="#">View More Projects</a>
+                <a href="https://github.com/ruhban" target="_blank" rel="noopener noreferrer">View More Projects</a>
               </Button>
             </div>
           </TabsContent>

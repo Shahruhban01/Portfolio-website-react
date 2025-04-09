@@ -30,47 +30,47 @@ const Experience = () => {
 
   const experiences = [
     {
-      company: "Google",
-      title: "Senior Software Engineer",
-      period: "January 2022 - Present",
+      company: "Upwork",
+      title: "Freelance Full Stack Developer",
+      period: "January 2021 - Present",
       responsibilities: [
-        "Lead a team of 5 engineers developing and maintaining core services with Node.js and TypeScript",
-        "Architected and implemented a new microservices infrastructure reducing deployment time by 40%",
-        "Implemented CI/CD pipeline using GitHub Actions resulting in more reliable and frequent releases",
-        "Mentored junior developers through code reviews and pair programming sessions"
+        "Building full-stack web applications using React, Vue.js, and Node.js",
+        "Developing WordPress websites and custom plugins for clients across various industries",
+        "Creating responsive, mobile-first interfaces using TailwindCSS and Bootstrap",
+        "Optimizing application performance and implementing SEO best practices"
       ]
     },
     {
-      company: "Amazon",
-      title: "Full Stack Developer",
-      period: "June 2019 - December 2021",
+      company: "Fiverr",
+      title: "Web Developer",
+      period: "March 2020 - Present",
       responsibilities: [
-        "Built and maintained customer-facing web applications using React, Redux, and GraphQL",
-        "Optimized database queries and API endpoints improving page load times by 30%",
-        "Collaborated with UX designers to implement responsive designs and accessibility improvements",
-        "Participated in on-call rotations, ensuring 99.9% service uptime"
+        "Developing custom WordPress themes and plugins for small to medium-sized businesses",
+        "Building e-commerce solutions using WooCommerce and custom integrations",
+        "Creating responsive landing pages and marketing websites",
+        "Providing ongoing maintenance and support for client websites"
       ]
     },
     {
-      company: "Microsoft",
+      company: "Taptech Studios",
       title: "Frontend Developer",
-      period: "August 2017 - May 2019",
+      period: "June 2019 - December 2020",
       responsibilities: [
-        "Developed and maintained user interfaces for internal tools using React and TypeScript",
-        "Created reusable component library, streamlining development across multiple teams",
-        "Integrated analytics and monitoring tools to track performance and user experience",
-        "Implemented automated testing strategies, achieving 85% code coverage"
+        "Developed responsive web applications using React.js and Vue.js",
+        "Created user interfaces for web and mobile applications",
+        "Collaborated with design teams to implement pixel-perfect UI components",
+        "Implemented state management using Redux and Vuex for complex applications"
       ]
     },
     {
-      company: "Startup Inc.",
+      company: "TechnoSol",
       title: "Junior Web Developer",
-      period: "January 2016 - July 2017",
+      period: "January 2019 - May 2019",
       responsibilities: [
-        "Built responsive websites and web applications for clients across various industries",
-        "Implemented frontend interfaces with HTML, CSS, and JavaScript (ES6)",
-        "Worked with backend teams to integrate APIs and database functionalities",
-        "Maintained and updated legacy codebase to modern standards"
+        "Developed and maintained WordPress websites for clients",
+        "Created responsive layouts using HTML, CSS, and JavaScript",
+        "Assisted senior developers with frontend implementation tasks",
+        "Performed quality assurance testing and bug fixes"
       ]
     }
   ];

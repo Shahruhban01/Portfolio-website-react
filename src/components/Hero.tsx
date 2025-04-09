@@ -10,16 +10,16 @@ const Hero = () => {
           Hi, my name is
         </p>
         <h1 className="text-5xl md:text-7xl font-bold text-slate-light mb-4 animate-fadeIn opacity-0" style={{animationDelay: '200ms'}}>
-          John Developer.
+          Muhammad Ruhban.
         </h1>
         <h2 className="text-4xl md:text-6xl font-bold text-slate mb-8 animate-fadeIn opacity-0" style={{animationDelay: '300ms'}}>
-          I build things for the web.
+          I build modern web experiences.
         </h2>
         <div className="max-w-xl animate-fadeIn opacity-0" style={{animationDelay: '400ms'}}>
           <p className="text-slate text-lg mb-10">
-            I'm a software engineer specializing in building (and occasionally designing)
-            exceptional digital experiences. Currently, I'm focused on building accessible,
-            human-centered products at <a href="#" className="text-teal hover:underline">Company Name</a>.
+            I'm a Full Stack JavaScript Developer with expertise in React, Vue, Next.js, Node.js, and WordPress.
+            My 4+ years of experience enables me to create efficient, user-friendly web solutions
+            that deliver real business value.
           </p>
           <Button asChild className="bg-transparent hover:bg-teal/10 border border-teal text-teal group">
             <a href="#projects">

@@ -72,8 +72,9 @@ const Contact = () => {
         <h2 className="font-mono text-teal mb-2">04. What's Next?</h2>
         <h3 className="text-4xl md:text-5xl font-bold text-slate-light mb-6">Get In Touch</h3>
         <p className="text-slate mb-12 max-w-lg mx-auto">
-          I'm currently looking for new opportunities. Whether you have a question, a proposal,
-          or just want to say hello, I'll try my best to get back to you!
+          I'm currently available for freelance work and full-time opportunities. 
+          If you have a project that needs some creative development power or if you're 
+          looking to hire a dedicated developer, feel free to reach out!
         </p>
         
         <form onSubmit={handleSubmit} className="space-y-6 text-left">

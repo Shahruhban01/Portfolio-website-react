@@ -32,14 +32,14 @@ const About = () => {
     "TypeScript", 
     "React", 
     "Node.js", 
-    "Express", 
     "Next.js",
-    "TailwindCSS", 
-    "GraphQL", 
+    "Vue.js",
+    "Express.js",
     "MongoDB", 
-    "PostgreSQL", 
-    "Git", 
-    "Docker"
+    "WordPress",
+    "TailwindCSS", 
+    "Bootstrap", 
+    "Git"
   ];
 
   return (
@@ -56,24 +56,22 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div className="md:col-span-2 space-y-4">
             <p>
-              Hello! My name is John and I enjoy creating things that live on the internet. 
-              My interest in web development started back in 2012 when I decided to try 
-              editing custom Tumblr themes — turns out hacking together a custom reblog 
-              button taught me a lot about HTML & CSS!
+              Hello! I'm Muhammad Ruhban, a passionate Full Stack JavaScript Developer with over 4 years 
+              of professional experience. I specialize in building exceptional digital experiences using 
+              modern web technologies.
             </p>
             <p>
-              Fast-forward to today, and I've had the privilege of working at 
-              an advertising agency, a start-up, a huge corporation, and a student-led 
-              design studio. My main focus these days is building accessible, inclusive 
-              products and digital experiences at <a href="#" className="text-teal hover:underline">Company Name</a> for 
-              a variety of clients.
+              I started my journey in web development during my university years, and what began as curiosity 
+              evolved into a fulfilling career. I enjoy solving complex problems and transforming ideas into 
+              elegant, functional web applications.
             </p>
             <p>
-              I also recently launched a course that covers everything you need to build a web 
-              app with the React ecosystem, from development to deployment.
+              My approach combines technical expertise with a deep understanding of user needs. I believe in 
+              writing clean, maintainable code that delivers tangible business value while providing intuitive 
+              user experiences.
             </p>
             <p className="mb-4">
-              Here are a few technologies I've been working with recently:
+              Here are the main technologies I work with:
             </p>
             
             <ul className="grid grid-cols-2 gap-2">
